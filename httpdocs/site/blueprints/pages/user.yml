@@ -1,0 +1,63 @@
+title: User
+
+columns:
+  left:
+    width: 1/2
+    fields:
+      username:
+        label: Username
+        type: text
+      password:
+        label: Password
+        type: text
+      mail:
+        label: E-Mail
+        type: email
+      street:
+        label: Street
+        type: text
+      zip:
+        label: ZIP
+        type: text
+        width: 1/4
+      district:
+        label: District
+        width: 1/4
+        type: select
+        options:
+          online: Online
+          kreuzberg: Kreuzberg
+          mitte: Mitte
+          neukoelln: Neukölln
+          charlottenburg: Charlottenburg
+          wedding: Wedding
+          prenzlauerberg: Prenzlauer Berg
+          friedrichhain: Friedrichhain
+          schoeneberg: Schöneberg
+
+  right:
+    width: 1/2
+    fields:
+      website:
+        label: Website
+        type: url
+      twitter:
+        label: Twitter
+        type: text
+        icon: twitter
+        placeholder: @username
+      instagram:
+        label: Instagram
+        type: text
+        icon: instagram
+        placeholder: username
+      instagram:
+        label: Instagram
+        type: text
+        icon: instagram
+        placeholder: username
+      facebook:
+        label: Facebook
+        type: text
+        icon: facebook
+        placeholder: username
