@@ -7,9 +7,9 @@ html{
 	background-color: #ffffff;
 	color: #333333;
   height: 200vh;
- /* background: linear-gradient(to bottom, #FFFFFF , #EAE5E6 , #FFFFFF , #DED6D6, #E8CBCB, #FFFFFF); */
-  /* background-blend-mode: screen; */
-	background-color: red;
+ background: linear-gradient(to bottom, #FFFFFF , #EAE5E6 , #FFFFFF , #DED6D6, #E8CBCB, #FFFFFF);
+  background-blend-mode: screen;
+	/* background-color: red; */
 }
 h1{
   //font-size: 1rem;
