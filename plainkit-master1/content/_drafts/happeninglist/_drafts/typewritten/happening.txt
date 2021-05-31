@@ -1,0 +1,65 @@
+Title: typewritten
+
+----
+
+Headline: typewritten
+
+----
+
+Person: Peter  Roehr, Carl Andre
+
+----
+
+Organizer: Mehdi Chouakri
+
+----
+
+Description: 
+
+----
+
+Link: http://www.mehdi-chouakri.com/
+
+----
+
+From: 2020-11-17
+
+----
+
+To: 2021-01-30
+
+----
+
+District: charlottenburg
+
+----
+
+Street: Mehdi Chouakri,Bleibtreustra_e 41, (Eingang über Mommsenstra_e 4),
+
+----
+
+Zip: 10623
+
+----
+
+Categories: gallery
+
+----
+
+Tags: 
+
+----
+
+Fromt: 
+
+----
+
+Tot: 
+
+----
+
+Metainfo: 
+
+----
+
+Images: 

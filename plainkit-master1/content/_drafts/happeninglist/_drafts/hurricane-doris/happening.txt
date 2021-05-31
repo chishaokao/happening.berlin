@@ -1,0 +1,65 @@
+Title: Hurricane Doris
+
+----
+
+Headline: Hurricane Doris
+
+----
+
+Person: Sarah Lucas
+
+----
+
+Organizer: Contemporary Fine Arts
+
+----
+
+Description: 
+
+----
+
+Link: http://www.cfa-berlin.com/
+
+----
+
+From: 2020-12-12
+
+----
+
+To: 2021-02-27
+
+----
+
+District: charlottenburg
+
+----
+
+Street: Contemporary Fine Arts,Grolmanstrasse 32/33,
+
+----
+
+Zip: 10623
+
+----
+
+Categories: gallery
+
+----
+
+Tags: 
+
+----
+
+Fromt: 
+
+----
+
+Tot: 
+
+----
+
+Metainfo: 
+
+----
+
+Images: 

@@ -1,0 +1,16 @@
+title: Insitutions
+preset: pages
+
+num: zero
+
+options:
+  url: false
+  status: false
+
+drafts:
+  extends: sections/articles
+  headline: New Institution
+  template: institution
+listed:
+  extends: sections/articles
+  headline: List

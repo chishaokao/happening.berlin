@@ -1,0 +1,65 @@
+Title: Karel Appel
+
+----
+
+Headline: Karel Appel
+
+----
+
+Person: Karel Appel
+
+----
+
+Organizer: Galerie Max Hetzler II
+
+----
+
+Description: 
+
+----
+
+Link: http://www.maxhetzler.com/
+
+----
+
+From: 2021-01-23
+
+----
+
+To: 2021-02-27
+
+----
+
+District: charlottenburg
+
+----
+
+Street: Galerie Max Hetzler II,Goethestra_e 2/3,
+
+----
+
+Zip: 10623
+
+----
+
+Categories: gallery
+
+----
+
+Tags: 
+
+----
+
+Fromt: 
+
+----
+
+Tot: 
+
+----
+
+Metainfo: 
+
+----
+
+Images: 
