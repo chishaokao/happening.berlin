@@ -58,18 +58,20 @@
       <div class="item-list">
 
         <!-- each event-->
-		<?php foreach ($site->findPageOrDraft('happeninglist')->children() as $happening):?>
-		  
+        <?php $happeninglist = $site->findPageOrDraft('happeninglist')->children()->listed()->sortBy(function($page){
+              return $page->to()->toDate();}, 'desc');?>
+
+    		<?php foreach ($happeninglist as $happening):?>
+
    
 
 
-    
-		<?php if ($happening->to()->toDate() > strtotime('-1 day')): ?>  
-         
+    <?php if ($happening->to()->toDate() > strtotime('-1 day')): ?>
+
           <?php $categories = $happening->categories() ?>
           <?php $district = $happening->district() ?>
           <div class="item <?php echo $categories. " ".$district ?>">
- 
+
             <span class="list-from"><?= $happening->from()->toDate('d.m') ?> </span>
             <img class="line" src="assets/src/Line.svg" alt="line">
             <span class="list-to"><?= $happening->to()->toDate('d.m') ?> </span>
@@ -84,7 +86,7 @@
               <span class="list-address"><?= $happening->street().$happening->zip()." ".$happening->district() ?></span>
             </div>
           </div>
-		  
+
 		  <?php endif; ?>
           <?php endforeach ?>
         </div>
@@ -131,8 +133,8 @@
     <div class="mc-field-group size1of2">
     <label for="mce-BIRTHDAY-month">Birthday </label>
     <div class="datefield">
-    <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / 
-    <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
+    <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> /
+    <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span>
     <span class="small-meta nowrap">( mm / dd )</span>
    </div>
   </div> <div id="mce-responses" class="clear">
