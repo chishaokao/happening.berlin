@@ -59,11 +59,11 @@
 
         <!-- each event-->
         <?php $happeninglist = $site->findPageOrDraft('happeninglist')->children()->listed()->sortBy(function($page){
-              return $page->to()->toDate();}, 'desc');?>
+              return $page->to()->toDate();});?>
 
     		<?php foreach ($happeninglist as $happening):?>
 
-   
+
 
 
     <?php if ($happening->to()->toDate() > strtotime('-1 day')): ?>
