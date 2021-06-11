@@ -65,7 +65,7 @@
         <?php $groups = $happeninglist->children()->listed()->group(function($happening) {
              if($happening->from()->toDate('Y-m-d') <= date('Y-m-d') && $happening->to()->toDate('Y-m-d') >= date('Y-m-d')) return 'now';
              if($happening->from()->toDate() > strtotime('-7 day')||$happening->to()->toDate() < strtotime('-7 day'))   return 'week';
-             if($happening->from()->toDate() > strtotime('-1 month')||$happening->to()->toDate() < strtotime('-1 month')) return 'month';
+             if($happening->from()->toDate('Y-m-d') <= date('Y-m-d') && $happening->to()->toDate('Y-m-d') >= date('Y-m-d')) return 'today';
              });
        ?>
 
