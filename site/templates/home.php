@@ -77,12 +77,13 @@
           <div class="item
             <?php echo $categories. " ".$district;
 
-               if($happening->from()->toDate() <= time() && $happening->to()->toDate() >= time()) echo " "."now";
-               if($happening->from()->toDate() > strtotime('-7 day')||$happening->to()->toDate() < strtotime('-7 day'))   echo " "."week";
-               if($happening->from()->toDate('Y-m-d') <= date('Y-m-d') && $happening->to()->toDate('Y-m-d') >= date('Y-m-d')) echo " "."today"
-
-                ?>
-          ">
+            if($happening->from()->toDate() <= time() && $happening->to()->toDate() >= time()) echo " "."now";
+            if($happening->from()->toDate('Y-m-d') <= date('Y-m-d') && $happening->to()->toDate('Y-m-d') >= date('Y-m-d')) echo " "."today";
+            $isstart=$happening->from()->toDate() <= strtotime('+7 day')&& $happening->to()->toDate('Y-m-d') >= date('Y-m-d');
+            $isend=$happening->to()->toDate() <= strtotime('+7 day');
+            if($isstart||$isend)   echo " "."week";
+          ?>
+       ">
 
 
             <span class="list-from"><?= $happening->from()->toDate('d.m') ?> </span>
