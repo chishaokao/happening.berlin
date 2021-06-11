@@ -62,12 +62,8 @@
 
         <?php $happeninglist = $site->findPageOrDraft('happeninglist')->children()->listed()->sortBy(function($page){
               return $page->to()->toDate();});?>
-        <?php $groups = $happeninglist->children()->listed()->group(function($happening) {
-             if($happening->from()->toDate() <= time() && $happening->to()->toDate() >= time()) return 'now';
-             if($happening->from()->toDate() > strtotime('-7 day')||$happening->to()->toDate() < strtotime('-7 day'))   return 'week';
-             if($happening->from()->toDate('Y-m-d') <= date('Y-m-d') && $happening->to()->toDate('Y-m-d') >= date('Y-m-d')) return 'today';
-             });
-       ?>
+
+
 
     		<?php foreach ($happeninglist as $happening):?>
 
@@ -80,7 +76,14 @@
           <?php $district = $happening->district() ?>
 
           <!--这里再根据item的时间分组给每个Item添加一个新的class -->
-          <div class="item <?php echo $categories. " ".$district ?>">
+          <div class="item
+            <?php echo $categories. " ".$district?>
+            <?php $groups = $happeninglist->children()->listed()->group(function($happening) {
+               if($happening->from()->toDate() <= time() && $happening->to()->toDate() >= time()) echo 'now';
+               if($happening->from()->toDate() > strtotime('-7 day')||$happening->to()->toDate() < strtotime('-7 day'))   echo 'week';
+               if($happening->from()->toDate('Y-m-d') <= date('Y-m-d') && $happening->to()->toDate('Y-m-d') >= date('Y-m-d')) echo 'today';
+               }) ?>
+          ">
 
 
             <span class="list-from"><?= $happening->from()->toDate('d.m') ?> </span>
