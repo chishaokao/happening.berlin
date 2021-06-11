@@ -70,7 +70,10 @@
 
           <?php $categories = $happening->categories() ?>
           <?php $district = $happening->district() ?>
+
+          <!--这里再根据item的时间分组给每个Item添加一个新的class -->
           <div class="item <?php echo $categories. " ".$district ?>">
+
 
             <span class="list-from"><?= $happening->from()->toDate('d.m') ?> </span>
             <img class="line" src="assets/src/Line.svg" alt="line">
