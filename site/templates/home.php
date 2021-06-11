@@ -67,6 +67,7 @@
              if($happening->from()->toDate() > strtotime('-7 day')||$happening->to()->toDate() < strtotime('-7 day'))   return 'week';
              if($happening->from()->toDate() > strtotime('-1 month')||$happening->to()->toDate() < strtotime('-1 month')) return 'month';
              });
+       ?>
 
     		<?php foreach ($happeninglist as $happening):?>
 
