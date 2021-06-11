@@ -63,9 +63,9 @@
         <?php $happeninglist = $site->findPageOrDraft('happeninglist')->children()->listed()->sortBy(function($page){
               return $page->to()->toDate();});?>
         <?php $groups = $happeninglist->children()->listed()->group(function($happening) {
-             if($happening->from()->toDate('Y-m-d') <= date('Y-m-d') && $happening->to()->toDate('Y-m-d') >= date('Y-m-d')) return 'now';
+             if($happening->from()->toDate() <= time() && $happening->to()->toDate() >= time()) return 'now';
              if($happening->from()->toDate() > strtotime('-7 day')||$happening->to()->toDate() < strtotime('-7 day'))   return 'week';
-             if($happening->from()->toDate('Y-m-d') <= date('Y-m-d') && $happening->to()->toDate('Y-m-d') >= date('Y-m-d')) return 'today';
+             if($happening->from()->toDate() <= date() && $happening->to()->toDate() >= date()) return 'today';
              });
        ?>
 
