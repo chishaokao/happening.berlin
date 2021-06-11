@@ -63,14 +63,6 @@
         <?php $happeninglist = $site->findPageOrDraft('happeninglist')->children()->listed()->sortBy(function($page){
               return $page->to()->toDate();});?>
 
-              <!--FILTER BY 方法实验 -->
-               <?php $now = $site->findPageOrDraft('happeninglist')
-               ->children()
-               ->filter(function ($happening) {
-               return $happening->from()->toDate() <= time() && $happening->to()->toDate() >= time();
-               });?>
-
-
     		<?php foreach ($happeninglist as $happening):?>
 
 
