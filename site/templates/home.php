@@ -58,8 +58,15 @@
       <div class="item-list">
 
         <!-- each event-->
+
+
         <?php $happeninglist = $site->findPageOrDraft('happeninglist')->children()->listed()->sortBy(function($page){
               return $page->to()->toDate();});?>
+        <?php $groups = $happeninglist->children()->listed()->group(function($happening) {
+             if($happening->from()->toDate('Y-m-d') <= date('Y-m-d') && $happening->to()->toDate('Y-m-d') >= date('Y-m-d')) return 'now';
+             if($happening->from()->toDate() > strtotime('-7 day')||$happening->to()->toDate() < strtotime('-7 day'))   return 'week';
+             if($happening->from()->toDate() > strtotime('-1 month')||$happening->to()->toDate() < strtotime('-1 month')) return 'month';
+             });
 
     		<?php foreach ($happeninglist as $happening):?>
 
@@ -86,6 +93,8 @@
               <span class="list-address"><?= $happening->street().$happening->zip()." ".$happening->district() ?></span>
             </div>
           </div>
+
+
 
 		  <?php endif; ?>
           <?php endforeach ?>
