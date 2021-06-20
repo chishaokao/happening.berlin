@@ -1,7 +1,7 @@
 
 <?php
 
-$file_path = "/var/www/vhosts/happening.berlin/httpdocs/plainkit-master/csv/happeninglist.csv";
+$file_path = "/var/www/vhosts/happening.berlin/httpdocs/csv/happeninglist.csv";
 
 $csvdata = array_map('str_getcsv', file($file_path));
 
@@ -23,7 +23,7 @@ foreach ($csvdata as &$value) {
 //    echo '<pre>';
 //    print_r($value);
 //    echo '</pre>';
-	
+
 
     if ($counter > 0) {
 // Event,Artist,Event__location,Description,URL,Event__start,Event__end,District,Address,PLZ,Category,Tag
@@ -44,7 +44,7 @@ foreach ($csvdata as &$value) {
 		  'fromt' => $value[12],
 		  'tot' => $value[13],
 	    ];
-		
+
 
         print_r($content);
 
@@ -53,7 +53,7 @@ foreach ($csvdata as &$value) {
           'template' => 'happening',
            'draft' => false
         ]);
-		
+
 
 
     }
