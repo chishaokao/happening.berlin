@@ -67,7 +67,6 @@
 
 
 
-
     <?php if ($happening->to()->toDate() > strtotime('-1 day')): ?>
 
           <?php $categories = $happening->categories() ?>
@@ -82,6 +81,7 @@
             $isstart=$happening->from()->toDate() <= strtotime('+7 day')&& $happening->from()->toDate('Y-m-d') >= date('Y-m-d');
             $isend=$happening->to()->toDate() <= strtotime('+7 day')&& $happening->to()->toDate()>= date('Y-m-d');
             if($isstart||$isend)   echo " "."week";
+            if($happening->to()->toDate() < strtotime('-31 day')) {$happening->delete();};
           ?>
        ">
 
