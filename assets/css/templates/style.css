@@ -233,7 +233,7 @@ img.line{
 .list-link{
 	grid-area: url;
 	padding-top: 1vh;
-	width:95%;
+	width:90%;
 }
 .list-description{
 	grid-area: des;
