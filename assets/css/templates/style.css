@@ -227,18 +227,22 @@ img.line{
 }
 
 .list-link{
-	//grid-area: url;
+	grid-area: url;
 	padding-top: 1vh;
+	width:95%;
 }
 .list-description{
 	grid-area: des;
+	line-height: 1.3;
+	width:95%;
 	font-size: 0.8rem;
 	padding-top: 1rem;
   display: block;
 	padding-bottom: 1rem;
 }
 .list-address{
-	//grid-area: address;
+	grid-area: address;
+	width:95%;
 	padding-top: 1vh;
 	padding-bottom: 3vh;
 }
