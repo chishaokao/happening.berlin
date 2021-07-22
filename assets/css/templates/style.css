@@ -157,7 +157,9 @@ background: transparent;
 	"date-from venue header"
 	"line . ."
 	"date-to district person"
-	"cont cont cont";
+	"cont cont cont"
+	"address address address"
+	"link link link";
 		justify-items: start;
 		align-items: start;
   border: 1px solid black;
