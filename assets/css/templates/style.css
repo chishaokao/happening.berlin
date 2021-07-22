@@ -159,7 +159,6 @@ background: transparent;
     ". date-to district person ."
     ". cont cont cont . "
 		". meta meta meta ."
-		". . . . ."
 		". address address address ."
 		". url url url .";
 
@@ -228,7 +227,7 @@ img.line{
 }
 
 .list-link{
-	grid-area: url;
+	//grid-area: url;
 	padding-top: 1vh;
 }
 .list-description{
@@ -236,9 +235,10 @@ img.line{
 	font-size: 0.8rem;
 	padding-top: 1vh;
   display: block;
+	margin-bottom: calc(line-height*1.5);
 }
 .list-address{
-	grid-area: address;
+	//grid-area: address;
 	padding-top: 1vh;
 	padding-bottom: 3vh;
 }
