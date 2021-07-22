@@ -149,19 +149,19 @@ background: transparent;
 	width:100%;
 
   display: grid;
-  grid-template-columns: 4% 20% 30% 40% 4%;
+  grid-template-columns: 30% 30% 40%;
   grid-template-rows: auto;
 	column-gap: 1vw;
   row-gap: 0.5vh;
   grid-template-areas:
-    ". date-from venue header ."
-		". line . . ."
-    ". date-to district person ."
-    ". cont cont cont . "
-		". meta meta meta ."
-		". address address address ."
-		". url url url .";
-
+	"date-from venue header"
+	"line . ."
+	"date-to district person"
+	"cont cont cont"
+	/*"meta meta meta"
+	"address address address"
+	"url url url"
+*/
 		justify-items: start;
 		align-items: start;
   border: 1px solid black;
@@ -173,7 +173,7 @@ background: transparent;
 }
 
 .list-from, .list-venue, .list-headline{
- padding-top: 3vh;
+ padding-top: 1rem;
  display:inline-block;
  line-height: 5vh;
  vertical-align: text-top;
@@ -182,11 +182,13 @@ background: transparent;
  display:inline-block;
  line-height: 5vh;
  vertical-align: text-top;
+ padding-bottom: : 1rem;
 }
 
 .list-from {
 	 grid-area: date-from;
 	 font-size: 5vh;
+	 padding-left: 1rem;
 }
 img.line{
 	grid-area: line;
@@ -196,6 +198,7 @@ img.line{
 .list-to{
 	grid-area: date-to;
 	 font-size: 5vh;
+	 padding-left:1rem;
 
 }
 
