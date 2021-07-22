@@ -13,13 +13,13 @@ body {
   background-blend-mode: screen;
 }
 h1{
-  font-size: 2.5vw;
+  font-size: 2rem;
 }
 h2{
-  font-size: 1.8vw;
+  font-size: 1.5rem;
 }
 h3{
-  font-size: 1.5vw;
+  font-size: 1.2rem;
 }
 
 .top-right {
@@ -195,10 +195,16 @@ margin-top: -5vh;
 .list-description{
   margin-top: 3rem;
 	font-size:0.8rem;
+	margin-bottom: calc(line-height*1.5);
 }
 .list-address{
 	display:block;
-	margin-top:3rem;
+	//margin-top:3rem;
+	margin-bottom: calc(line-height*1.5);
+}
+.list-link{
+	display: block;
+	margin-bottom: calc(line-height*1.5);
 }
 a:link {
   text-decoration: none;
