@@ -2,7 +2,8 @@
 
 body {
 	font-family: Helvetica;
-	font-size: 1.5vw;
+	//font-size: calc(21px + (30 - 21) * ((100vw - 768px) / (1600 - 768)));
+	font-size: clamp(16px, 2vw, 24px);
 	line-height: 1.5;
 	text-align: left;
 	background-color: #ffffff;
@@ -193,6 +194,7 @@ margin-top: -5vh;
 }
 .list-description{
   margin-top: 8vh;
+	font-size:
 }
 a:link {
   text-decoration: none;
