@@ -159,8 +159,9 @@ background: transparent;
     ". date-to district person ."
     ". cont cont cont . "
 		". meta meta meta ."
-		". url url url ."
-		". address address address .";
+		". . . . ."
+		". address address address ."
+		". url url url .";
 
 		justify-items: start;
 		align-items: start;
