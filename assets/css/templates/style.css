@@ -233,9 +233,9 @@ img.line{
 .list-description{
 	grid-area: des;
 	font-size: 0.8rem;
-	padding-top: 1vh;
+	padding-top: 1rem;
   display: block;
-	margin-bottom: calc(line-height*1.5);
+	padding-bottom: 1rem;
 }
 .list-address{
 	//grid-area: address;
