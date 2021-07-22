@@ -225,6 +225,7 @@ img.line{
 	width:95%;
   grid-area: cont;
   padding: 5vh 0;
+	padding-left:1rem;
 }
 
 .list-link{
