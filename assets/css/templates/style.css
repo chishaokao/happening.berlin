@@ -157,11 +157,11 @@ background: transparent;
     ". date-from venue header ."
 		". line . . ."
     ". date-to district person ."
-    ". cont cont cont . ";
-		/*". meta meta meta ."
+    ". cont cont cont . "
+		". meta meta meta ."
 		". url url url ."
 		". address address address .";
-    */
+
 		justify-items: start;
 		align-items: start;
   border: 1px solid black;
