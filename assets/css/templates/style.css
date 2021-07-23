@@ -23,7 +23,7 @@ h3{
 
 .top-right {
  position: fixed;
-  right: 5vw;
+  right: 2rem;
   top: 8vh;
 }
 input#search{
@@ -34,6 +34,7 @@ width: 8vw;
 padding: 1vh 0.4vw;
 text-align:center;
 background: transparent;
+z-index:10;
 }
 
 #options {
