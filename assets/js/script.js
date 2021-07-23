@@ -185,11 +185,12 @@ $("body").scroll(function(){
     $("footer .current").removeClass("current")
     //$("footer .cross").show()
     $("div.newsletter").slideDown(1000).addClass("current")
-
+    $(".transparent").show()
   })
 
  $(".transparent").click(function(){
    $(".current").slideUp(1000)
+   $(".transparent").hide()
    //$("footer .cross").hide()
  })
 
