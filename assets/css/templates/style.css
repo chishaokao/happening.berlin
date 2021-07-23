@@ -266,10 +266,9 @@ img.line{
 }
 .list-address{
 	display: block;
+	margin-top: 2rem;
 	margin-bottom: 1rem;
 	width:95%;
-	padding-top: 1vh;
-	padding-bottom: 3vh;
 }
 a:hover{
  color: #999999;
