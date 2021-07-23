@@ -246,13 +246,14 @@ img.line{
 .list-content {
 	display: none;
 	width:95%;
-	margin-top: 5rem;
+	margin-top: 7rem;
 	margin-left: 2rem;
 }
 
 .list-link{
-	//grid-area: url;
-	padding-top: 1vh;
+	display: block;
+	margin-bottom: 1rem;
+
 	width:90%;
 }
 .list-description{
@@ -264,7 +265,8 @@ img.line{
 	padding-bottom: 1rem;
 }
 .list-address{
-	//grid-area: address;
+	display: block;
+	margin-bottom: 1rem;
 	width:95%;
 	padding-top: 1vh;
 	padding-bottom: 3vh;
