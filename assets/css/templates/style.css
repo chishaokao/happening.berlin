@@ -165,8 +165,7 @@ z-index:10;
   row-gap: 0.5vh;
   grid-template-areas:
 	"date-from venue header"
-	"line . ."
-	"date-to district person"
+	"date-to district header"
 	"cont cont cont"
 	"address address address"
 	"link link link";
@@ -195,7 +194,7 @@ z-index:10;
 
 .list-from {
 	 grid-area: date-from;
-	 font-size: 5vh;
+	 font-size: 2rem;
 	 padding-left: 2rem;
 }
 img.line{
@@ -206,7 +205,7 @@ img.line{
 }
 .list-to{
 	grid-area: date-to;
-	 font-size: 5vh;
+	 font-size:2rem;
 	 padding-left:2rem;
 
 }
