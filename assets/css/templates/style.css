@@ -221,19 +221,21 @@ img.line{
 	position: absolute;
 	display: inline;
 	left: 10rem;
-	width: 11rem;
+	width: 9rem;
 }
 .list-district{
 	//grid-area: district;
   font-size: 1.1rem;
 }
 .list-headline{
-	//grid-area: header;
 	font-size: 1.2rem;
   line-height: 1.5;
 	font-weight: bold;
 	width:90%;
 	margin-top: -0.3rem;
+	right: 2rem;
+	position: absolute;
+  width: 12rem;
 }
 
 .list-artist{
