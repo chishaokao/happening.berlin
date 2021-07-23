@@ -88,7 +88,7 @@
 
 
             <span class="list-from"><?= $happening->from()->toDate('d.m') ?> </span>
-            <img class="line" src="assets/src/Line.svg" alt="line">
+          <!--  <img class="line" src="assets/src/Line.svg" alt="line"> -->
             <span class="list-to"><?= $happening->to()->toDate('d.m') ?> </span>
             <span class="list-venue"><?= $happening->organizer() ?></span>
             <span class="list-district"><?= $happening->district() ?></span>
