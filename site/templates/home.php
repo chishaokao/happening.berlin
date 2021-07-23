@@ -45,9 +45,9 @@
         </div>
     <div class= "option-set check-date" data-group ="date">
 
-      <label><input type ="checkbox" value =".week" />This Week</label>
+      <label><input type ="checkbox" value =".month" />This Month</label>
+       <label><input type ="checkbox" value =".week" />This Week</label>
        <label><input type ="checkbox" value =".today" />Today</label>
-       <label><input type ="checkbox" value =".now" />Now</label>
 
       </div>
     </div>
@@ -75,12 +75,13 @@
           <!--这里再根据item的时间分组给每个Item添加一个新的class -->
           <div class="item
             <?php echo $categories. " ".$district;
-
-            if($happening->from()->toDate() <= time() && $happening->to()->toDate() >= time()) echo " "."now";
             if($happening->from()->toDate('Y-m-d') <= date('Y-m-d') && $happening->to()->toDate('Y-m-d') >= date('Y-m-d')) echo " "."today";
             $isstart=$happening->from()->toDate() <= strtotime('+7 day')&& $happening->from()->toDate('Y-m-d') >= date('Y-m-d');
             $isend=$happening->to()->toDate() <= strtotime('+7 day')&& $happening->to()->toDate()>= date('Y-m-d');
             if($isstart||$isend)   echo " "."week";
+            $isstart=$happening->from()->toDate() <= strtotime('+31 day')&& $happening->from()->toDate('Y-m-d') >= date('Y-m-d');
+            $isend=$happening->to()->toDate() <= strtotime('+31 day')&& $happening->to()->toDate()>= date('Y-m-d');
+            if($isstart||$isend)   echo " "."month";
             if($happening->to()->toDate() < strtotime('-31 day')) {$happening->delete();};
           ?>
        ">
