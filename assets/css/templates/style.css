@@ -158,11 +158,12 @@ z-index:10;
   margin-top: 1vh!important;
 	width:100%;
 
-  display: grid;
+  //display: grid;
   grid-template-columns: 30% 30% 40%;
   grid-template-rows: auto;
 	column-gap: 1vw;
   row-gap: 0.5vh;
+	/*
   grid-template-areas:
 	"date-from venue header"
 	"date-to district header"
@@ -171,6 +172,7 @@ z-index:10;
 	"link link link";
 		justify-items: start;
 		align-items: start;
+		*/
   border: 1px solid black;
   border-radius: 50px;
   margin-bottom: 1vh;
@@ -193,7 +195,7 @@ z-index:10;
 }
 
 .list-from {
-	 grid-area: date-from;
+	 //grid-area: date-from;
 	 font-size: 2rem;
 	 padding-left: 2rem;
 }
@@ -204,7 +206,7 @@ img.line{
 	height:auto;
 }
 .list-to{
-	grid-area: date-to;
+	//grid-area: date-to;
 	 font-size:2rem;
 	 padding-left:2rem;
 
@@ -212,14 +214,14 @@ img.line{
 
 .list-venue{
   font-size: 1.1rem;
-  grid-area: venue;
+  //grid-area: venue;
 }
 .list-district{
-	grid-area: district;
+	//grid-area: district;
   font-size: 1.1rem;
 }
 .list-headline{
-	grid-area: header;
+	//grid-area: header;
 	font-size: 1.2rem;
   line-height: 1.5;
 	font-weight: bold;
@@ -229,24 +231,24 @@ img.line{
 
 .list-artist{
  font-size: 1.3rem;
-	grid-area: person;
+	//grid-area: person;
 }
 
 .list-content {
 	display: none;
 	width:95%;
-  grid-area: cont;
+  //grid-area: cont;
   padding: 5vh 0;
 	padding-left:2rem;
 }
 
 .list-link{
-	grid-area: url;
+	//grid-area: url;
 	padding-top: 1vh;
 	width:90%;
 }
 .list-description{
-	grid-area: des;
+	//grid-area: des;
 	line-height: 1.3;
 	width:95%;
 	font-size: 0.8rem;
@@ -255,7 +257,7 @@ img.line{
 	padding-bottom: 1rem;
 }
 .list-address{
-	grid-area: address;
+	//grid-area: address;
 	width:95%;
 	padding-top: 1vh;
 	padding-bottom: 3vh;
