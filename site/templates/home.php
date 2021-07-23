@@ -95,9 +95,9 @@
             <span class="list-headline"><?= $happening->headline() ?></span>
             <span class="list-artist"><?= $happening->person() ?></span>
             <div class="list-content">
+                <span class="list-address"><?= $happening->street().$happening->zip()." ".$happening->district() ?></span>
               <span class="list-description"><?= $happening->description() ?></span>
               <span class="list-meta-info"><?= $happening->metaInfo() ?></span>
-              <span class="list-address"><?= $happening->street().$happening->zip()." ".$happening->district() ?></span>
               <span class="list-link"><a><?= $happening->link() ?></a></span>
             </div>
           </div>
