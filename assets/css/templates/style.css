@@ -246,9 +246,8 @@ img.line{
 .list-content {
 	display: none;
 	width:95%;
-  //grid-area: cont;
-  padding: 5vh 0;
-	padding-left:2rem;
+	margin-top: 5rem;
+	margin-left: 2rem;
 }
 
 .list-link{
@@ -257,7 +256,6 @@ img.line{
 	width:90%;
 }
 .list-description{
-	//grid-area: des;
 	line-height: 1.3;
 	width:95%;
 	font-size: 0.8rem;
