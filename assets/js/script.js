@@ -1,13 +1,13 @@
 
 
 $(document).ready(function() {
-    
+
   // quick search regex
   var $list = $('.item-list').isotope({
     itemSelector: '.item',
-  
+
   })
-  
+
   // store filter for each group
   var filters = []
     // filter isotope
@@ -25,7 +25,7 @@ $(document).ready(function() {
       filters.splice(index, 1)
     }
   }
-  
+
 var $filterDisplay = $('#filter-display');
   filters={}
 $list.isotope();
@@ -37,7 +37,7 @@ $list.isotope();
     if(!filterGroup) {
       filterGroup = filters[group] =[]
     }
-    
+
     if(checkbox.checked){
       //add filter
       filterGroup.push(checkbox.value)
@@ -80,11 +80,11 @@ function getComboFilter() {
   var comboFilter = combo.join(' , ');
   return comboFilter;
 }
-  
-  
+
+
   // filter buttons change color
 
- 
+
   $(".category label").change(1000,function (){
     $(this).toggleClass("active")
    $(this).find(".cross").toggle()
@@ -93,8 +93,8 @@ function getComboFilter() {
   $(".check-date label").change(1000,function(){
     $(this).toggleClass("time-range")
   })
- 
-  
+
+
   // card slide down
   /*
   $('.item').click(function() {
@@ -116,14 +116,14 @@ function getComboFilter() {
       $('.current .list-content').slideToggle(1000)
     $(this).removeClass('current')
   })
-  
+
   // quick search regex
 var qsRegex;
 
 // init Isotope
 var $list = $('.item-list').isotope({
   itemSelector: '.item',
- 
+
   filter: function() {
     return qsRegex ? $(this).text().match( qsRegex ) : true;
   }
@@ -162,11 +162,11 @@ $("#search").keypress(function(k){
                         .toUpperCase()
                          .indexOf(m[3].toUpperCase()) >= 0;
       }
-      
-        var str = $("#search").val(); 
+
+        var str = $("#search").val();
         $(".item").hide()
         $(".item:contains(" + str + ")").show()
-    }  
+    }
 })
 
 
@@ -180,19 +180,17 @@ $("body").scroll(function(){
 	perturbance: 0.04,
 })
   //$('html').ripples("drop", x, y, radius, strength)
-  
+
   $("#news").click(function(){
     $("footer .current").removeClass("current")
     $("footer .cross").show()
     $("div.newsletter").slideDown(1000).addClass("current")
-   
+
   })
 
- $("img.cross").click(function(){
+ $(".transparent").click(function(){
    $(".current").slideUp(1000)
    $("footer .cross").hide()
  })
 
   })
-
-
