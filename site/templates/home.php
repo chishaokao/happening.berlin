@@ -98,7 +98,7 @@
                 <span class="list-address"><?= $happening->street().$happening->zip()." ".$happening->district() ?></span>
               <span class="list-description"><?= $happening->description() ?></span>
               <span class="list-meta-info"><?= $happening->metaInfo() ?></span>
-              <a><span class="list-link"><?= $happening->link() ?></span></a>
+              <a class="list-link"><?= $happening->link() ?></a>
             </div>
           </div>
 
