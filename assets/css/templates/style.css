@@ -186,17 +186,18 @@ background: transparent;
 .list-from {
 	 grid-area: date-from;
 	 font-size: 5vh;
-	 padding-left: 1rem;
+	 padding-left: 2rem;
 }
 img.line{
 	grid-area: line;
+	padding-left:2rem;
 	width:45%;
 	height:auto;
 }
 .list-to{
 	grid-area: date-to;
 	 font-size: 5vh;
-	 padding-left:1rem;
+	 padding-left:2rem;
 
 }
 
@@ -227,7 +228,7 @@ img.line{
 	width:95%;
   grid-area: cont;
   padding: 5vh 0;
-	padding-left:1rem;
+	padding-left:2rem;
 }
 
 .list-link{
