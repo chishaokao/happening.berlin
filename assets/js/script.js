@@ -183,14 +183,14 @@ $("body").scroll(function(){
 
   $("#news").click(function(){
     $("footer .current").removeClass("current")
-    $("footer .cross").show()
+    //$("footer .cross").show()
     $("div.newsletter").slideDown(1000).addClass("current")
 
   })
 
  $(".transparent").click(function(){
    $(".current").slideUp(1000)
-   $("footer .cross").hide()
+   //$("footer .cross").hide()
  })
 
   })
