@@ -195,9 +195,11 @@ z-index:10;
 }
 
 .list-from {
-	 //grid-area: date-from;
-	 font-size: 2rem;
-	 padding-left: 2rem;
+	font-size: 2rem;
+	display: inline;
+	margin-left: 2rem;
+	position: absolute;
+	width: 3rem;
 }
 img.line{
 	grid-area: line;
@@ -206,15 +208,20 @@ img.line{
 	height:auto;
 }
 .list-to{
-	//grid-area: date-to;
-	 font-size:2rem;
-	 padding-left:2rem;
+	font-size: 2rem;
+	margin-left: 2rem;
+	position: absolute;
+	display: inline;
+	margin-top: 5rem;
 
 }
 
 .list-venue{
-  font-size: 1.1rem;
-  //grid-area: venue;
+	font-size: 1.1rem;
+	position: absolute;
+	display: inline;
+	left: 10rem;
+	width: 11rem;
 }
 .list-district{
 	//grid-area: district;
