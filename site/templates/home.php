@@ -3,7 +3,7 @@
   <?php snippet('header') ?>
 
   <body>
-    <div class="transparent">
+    <div class="transparent"></div>
     <div class="top-right">
       <input type="text" id="search" placeholder="Search" name="search">
     </div>
@@ -108,7 +108,7 @@
           <?php endforeach ?>
         </div>
       </div>
-    </div>
+
     <!-- main ends here-->
 
     <footer>
