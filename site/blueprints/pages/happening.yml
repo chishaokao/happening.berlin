@@ -46,7 +46,7 @@ columns:
       district:
         label: District
         width: 1/4
-        type: select
+        type: multiselect
         options:
           online: Online
           kreuzberg: Kreuzberg
