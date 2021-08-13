@@ -169,6 +169,7 @@ z-index:10;
 .item .top{
 	display:block;
 	margin-top:1rem;
+	vertical-align: text-top;
 }
 .item .bottom{
 	display: block;
