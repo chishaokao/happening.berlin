@@ -25,6 +25,7 @@
         <label id="opening" class="filter-opening"><input type ="checkbox" value =".opening" />Opening<img src="assets/src/cross.svg" alt="cross" class="cross"/></label>
         <label id="talk" class="filter-talk "><input type ="checkbox" value =".talk" />Talk<img src="assets/src/cross.svg" alt="cross" class="cross"/></label>
         <label id="concert" class="filter-concert"><input type ="checkbox" value =".concert" />Concert<img src="assets/src/cross.svg" alt="cross" class="cross"/></label>
+        <label id="performance" class="filter-performance"><input type ="checkbox" value =".performance" />Performance<img src="assets/src/cross.svg" alt="cross" class="cross"/></label>
          <label id="party" class="filter-party"><input type ="checkbox" value =".party" />Party<img src="assets/src/cross.svg" alt="cross" class="cross"/></label>
          <label id="star" class="filter-star "><input type ="checkbox" value =".star" /><img src="assets/src/star-6.svg"
         alt="recommand" class="star" /><img src="assets/src/cross.svg" alt="cross" class="cross"/></label>
