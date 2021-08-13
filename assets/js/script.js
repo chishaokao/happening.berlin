@@ -1,7 +1,7 @@
 
 
 $(document).ready(function() {
-
+$('a').css('text-decoration','none')
   // quick search regex
   var $list = $('.item-list').isotope({
     itemSelector: '.item',
