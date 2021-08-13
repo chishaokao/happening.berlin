@@ -251,7 +251,7 @@ width: 30%;
 
 	width:90%;
 }
-.list-description{
+.list-description, .list-meta-info{
 	line-height: 1.3;
 	width:95%;
 	font-size: 0.8rem;
