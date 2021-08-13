@@ -188,7 +188,7 @@ z-index:10;
 	font-size: 2rem;
 	//display: inline;
 	margin-left: 2rem;
-	position: absolute;
+	position: relative;
 	width: 3rem;
 }
 img.line{
@@ -200,9 +200,8 @@ img.line{
 .list-to{
 	font-size: 2rem;
 	margin-left: 2rem;
-	position: absolute;
+	position: relative;
 	//display: inline;
-	margin-top: 5rem;
 
 }
 
