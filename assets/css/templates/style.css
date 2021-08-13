@@ -173,7 +173,7 @@ z-index:10;
 }
 .item .bottom{
 	display: block;
-	margin-top: 3rem;
+	margin-top: 2rem;
   margin-bottom: 1rem;
 }
 .list-from, .list-venue, .list-headline{
@@ -235,7 +235,7 @@ width: 30%;
 .list-artist{
  font-size: 1.3rem;
  position:absolute;
- left:58%;
+ left:57%;
 }
 
 .list-content {
