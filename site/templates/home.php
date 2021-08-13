@@ -87,14 +87,17 @@
           ?>
        ">
 
-
+        <div class="top">
             <span class="list-from"><?= $happening->from()->toDate('d.M') ?> </span>
           <!--  <img class="line" src="assets/src/Line.svg" alt="line"> -->
            <span class="list-venue"><?= $happening->organizer() ?></span>
            <span class="list-headline"><?= $happening->headline() ?></span>
-            <span class="list-to"><?= $happening->to()->toDate('d.M') ?> </span>
+         </div>
+         <div class="bottom">
+        <span class="list-to"><?= $happening->to()->toDate('d.M') ?> </span>
             <span class="list-district"><?= $happening->district() ?></span>
             <span class="list-artist"><?= $happening->person() ?></span>
+          </div>
             <div class="list-content">
                 <span class="list-address"><?= $happening->street().$happening->zip()." ".$happening->district() ?></span>
               <span class="list-description"><?= $happening->description() ?></span>

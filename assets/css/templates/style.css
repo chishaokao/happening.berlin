@@ -158,11 +158,6 @@ z-index:10;
   margin-top: 1vh!important;
 	width:100%;
 
-  //display: grid;
-  //grid-template-columns: 30% 30% 40%;
-  //grid-template-rows: auto;
-	//column-gap: 1vw;
-  //row-gap: 0.5vh;
   border: 1px solid black;
   border-radius: 50px;
   margin-bottom: 1vh;
@@ -171,14 +166,18 @@ z-index:10;
 
 }
 
+.item .top, .item .bottom{
+	display:block;
+}
+
 .list-from, .list-venue, .list-headline{
  padding-top: 1rem;
- display:inline-block;
+ display:inline;
  line-height: 5vh;
  vertical-align: text-top;
 }
 .list-to, .list-district, .list-artist{
- display:inline-block;
+ display:inline;
  line-height: 5vh;
  vertical-align: text-top;
  padding-bottom:1rem;
