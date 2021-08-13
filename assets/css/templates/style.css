@@ -215,7 +215,7 @@ width: 30%;
 }
 .list-district{
 	font-size: 1.1rem;
-	width: 9rem;
+	width: 10rem;
 	position: relative;
 	left: 7%;
 	display: inline-block;
@@ -224,12 +224,18 @@ width: 30%;
 .list-headline{
 	font-size: 1.2rem;
 	font-weight: bold;
+	width:17rem;
+	position:absolute;
+	left:58%;
+	display:inline-block;
+	margin-right:1rem;
 
 }
 
 .list-artist{
  font-size: 1.3rem;
-	//grid-area: person;
+ position:absolute;
+ left:58%;
 }
 
 .list-content {
