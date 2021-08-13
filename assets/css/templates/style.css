@@ -251,6 +251,9 @@ width: 30%;
 	text-decoration: none;
 	width:90%;
 }
+a.list-link{
+text-decoration: none;
+}
 .list-description, .list-meta-info{
 	line-height: 1.3;
 	width:95%;
