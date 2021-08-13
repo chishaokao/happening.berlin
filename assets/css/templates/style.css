@@ -173,12 +173,12 @@ z-index:10;
 
 .list-from, .list-venue, .list-headline{
  padding-top: 1rem;
- display:block;
+ display:inline-block;
  line-height: 5vh;
  vertical-align: text-top;
 }
 .list-to, .list-district, .list-artist{
- display:block;
+ display:inline-block;
  line-height: 5vh;
  vertical-align: text-top;
  padding-bottom:1rem;
