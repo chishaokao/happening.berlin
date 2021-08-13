@@ -100,11 +100,13 @@ function getComboFilter() {
     $(this)
       .addClass('current')
       $('.current .list-content').slideDown(1000)
+      /*
       $(this).children().not('a')click(function(){
         $('.current .list-content').slideUp(1000)
         $(this).removeClass('current')
 
   })
+  */
 })
 
   // quick search regex
