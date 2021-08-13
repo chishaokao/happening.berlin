@@ -208,16 +208,16 @@ width: 30%;
 
 .list-venue{
 	font-size: 1.1rem;
-	position: relative;
+	position: absolute;
 	display: inline-block;
-	left: 7%;
-	width: 30%;
+	left: 27%;
+	width: 25%;
 }
 .list-district{
 	font-size: 1.1rem;
-	width: 10rem;
-	position: relative;
-	left: 7%;
+	width: 25%;
+	position: absolute;
+	left: 27%;
 	display: inline-block;
 	line-height: 1.2rem;
 }
