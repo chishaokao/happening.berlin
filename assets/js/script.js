@@ -100,7 +100,7 @@ function getComboFilter() {
     $(this)
       .addClass('current')
       $('.current .list-content').slideDown(1000)
-      $(this).click(function(){
+      $(this).children().filter('a')click(function(){
         $('.current .list-content').slideUp(1000)
         $(this).removeClass('current')
 
