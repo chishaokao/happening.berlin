@@ -109,19 +109,11 @@ function getComboFilter() {
   $('.item').click(function() {
     $(this)
       .addClass('current')
-      //.slideDown('slow', function() {
-       // $('.current .list-content').css("display","block")
-      // $('.current .list-content').toggle(1000)
-      //})
-
-      //$(this).removeClass('current')
+      /*
       $(this).click(function(){
         $('.current .list-content').slideUp(1000)
         $(this).removeClass('current')
-        $(this).find('a').click(function(event){
-          event.preventDefault()
-        })
-      })
+  */
   })
 
   // quick search regex
