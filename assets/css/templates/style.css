@@ -248,11 +248,10 @@ width: 30%;
 .list-link{
 	display: block;
 	margin-bottom: 1rem;
-	text-decoration: none;
 	width:90%;
 }
 a{
-text-decoration: none;
+text-decoration: none !important;
 }
 .list-description, .list-meta-info{
 	line-height: 1.3;
