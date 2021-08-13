@@ -113,11 +113,14 @@ function getComboFilter() {
        // $('.current .list-content').css("display","block")
       // $('.current .list-content').toggle(1000)
       //})
-      $('.current .list-content').slideDown(1000)
+
       //$(this).removeClass('current')
       $(this).click(function(){
         $('.current .list-content').slideUp(1000)
         $(this).removeClass('current')
+        $(this).find('a').click(function(event){
+          event.preventDefault()
+        })
       })
   })
 
