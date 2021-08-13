@@ -99,14 +99,16 @@ function getComboFilter() {
   $('.item').click(function(){
     $(this)
       .addClass('current')
-      $('.current .list-content').slideDown(1000)
-
+      //试试换成slidetoggle，看看还会不会乱跳
+      $('.current .list-content').slideToggle(1000)
+      $(this).removeClass('current')
+      /*
       $(this).click(function(){
         $('.current .list-content').slideUp(1000)
         $(this).removeClass('current')
 
   })
-
+*/
 })
 
   // quick search regex

@@ -251,7 +251,7 @@ width: 30%;
 	width:90%;
 }
 a{
-text-decoration: none !important;
+text-decoration: none;
 }
 .list-description, .list-meta-info{
 	line-height: 1.3;
