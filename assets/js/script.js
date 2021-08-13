@@ -5,7 +5,6 @@ $(document).ready(function() {
   // quick search regex
   var $list = $('.item-list').isotope({
     itemSelector: '.item',
-
   })
 
   // store filter for each group
@@ -97,7 +96,7 @@ function getComboFilter() {
 
   // card slide down
 
-  $('.item').click(function() {
+  $('.item').click(function(){
     $(this)
       .addClass('current')
       $('.current .list-content').show(1000)
@@ -106,6 +105,7 @@ function getComboFilter() {
         $(this).removeClass('current')
 
   })
+})
 
   // quick search regex
 var qsRegex;
