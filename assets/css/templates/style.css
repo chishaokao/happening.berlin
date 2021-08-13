@@ -176,7 +176,6 @@ z-index:10;
   margin-bottom: 1rem;
 }
 .list-from, .list-venue, .list-headline{
- padding-top: 1rem;
  display:inline;
  line-height: 5vh;
  vertical-align: text-top;
