@@ -96,7 +96,7 @@ function getComboFilter() {
 
 
   // card slide down
-  /*
+
   $('.item').click(function() {
     $(this)
       .addClass('current')
@@ -105,7 +105,7 @@ function getComboFilter() {
       })
     $(this).removeClass('current')
   })
-  */
+  /*
   $('.item').click(function() {
     $(this)
       .addClass('current')
