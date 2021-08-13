@@ -1,8 +1,0 @@
-Title: Subscribers
-
-----
-
-Subscriber:
-
-- 
-  email: lixinyi.1203@gmail.com
