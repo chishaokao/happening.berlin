@@ -166,10 +166,15 @@ z-index:10;
 
 }
 
-.item .top, .item .bottom{
+.item .top{
 	display:block;
+	margin-top:1rem;
 }
-
+.item .bottom{
+	display: block;
+	margin-top: 3rem;
+  margin-bottom: 1rem;
+}
 .list-from, .list-venue, .list-headline{
  padding-top: 1rem;
  display:inline;
