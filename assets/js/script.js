@@ -99,9 +99,9 @@ function getComboFilter() {
   $('.item').click(function(){
     $(this)
       .addClass('current')
-      $('.current .list-content').show(1000)
+      $('.current .list-content').slideDown(1000)
       $(this).click(function(){
-        $('.current .list-content').hide(1000)
+        $('.current .list-content').slideUp(1000)
         $(this).removeClass('current')
 
   })
