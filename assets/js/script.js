@@ -96,26 +96,15 @@ function getComboFilter() {
 
 
   // card slide down
-/*
-  $('.item').click(function() {
-    $(this)
-      .addClass('current')
-      .slideDown('slow', function() {
-        $('.current .list-content').toggle('slow')
-      })
-    $(this).removeClass('current')
-  })
-  /*
 
-  
   $('.item').click(function() {
     $(this)
       .addClass('current')
-      /*
+
       $(this).click(function(){
         $('.current .list-content').slideUp(1000)
         $(this).removeClass('current')
-  */
+
   })
 
   // quick search regex
