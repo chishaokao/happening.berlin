@@ -173,12 +173,12 @@ z-index:10;
 
 .list-from, .list-venue, .list-headline{
  padding-top: 1rem;
- display:inline-block;
+ display:block;
  line-height: 5vh;
  vertical-align: text-top;
 }
 .list-to, .list-district, .list-artist{
- display:inline-block;
+ display:block;
  line-height: 5vh;
  vertical-align: text-top;
  padding-bottom:1rem;
@@ -186,19 +186,19 @@ z-index:10;
 
 .list-from {
 	font-size: 2rem;
-	margin-left: 2rem;
+	margin-left: 1rem;
 	position: relative;
-	width: 3rem;
+	width: 7rem;
 }
 img.line{
 
 }
 .list-to{
 	font-size: 2rem;
-	margin-left: -3rem;
+	margin-left: 1rem;
 	padding-top:3rem;
 	position: relative;
-  width:3rem;
+  width:7rem;
 
 }
 
@@ -210,8 +210,9 @@ img.line{
 	width: 9rem;
 }
 .list-district{
-	//grid-area: district;
   font-size: 1.1rem;
+
+	width:5rem;
 }
 .list-headline{
 	font-size: 1.2rem;
