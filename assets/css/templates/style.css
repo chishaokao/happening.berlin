@@ -186,22 +186,19 @@ z-index:10;
 
 .list-from {
 	font-size: 2rem;
-	//display: inline;
 	margin-left: 2rem;
 	position: relative;
 	width: 3rem;
 }
 img.line{
-	//grid-area: line;
-	padding-left:2rem;
-	width:45%;
-	height:auto;
+
 }
 .list-to{
 	font-size: 2rem;
-	margin-left: 2rem;
+	margin-left: -3rem;
+	padding-top:3rem;
 	position: relative;
-	//display: inline;
+  width:3rem;
 
 }
 
