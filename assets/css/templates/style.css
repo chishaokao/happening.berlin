@@ -159,24 +159,14 @@ z-index:10;
 	width:100%;
 
   //display: grid;
-  grid-template-columns: 30% 30% 40%;
-  grid-template-rows: auto;
-	column-gap: 1vw;
-  row-gap: 0.5vh;
-	/*
-  grid-template-areas:
-	"date-from venue header"
-	"date-to district header"
-	"cont cont cont"
-	"address address address"
-	"link link link";
-		justify-items: start;
-		align-items: start;
-		*/
+  //grid-template-columns: 30% 30% 40%;
+  //grid-template-rows: auto;
+	//column-gap: 1vw;
+  //row-gap: 0.5vh;
   border: 1px solid black;
   border-radius: 50px;
   margin-bottom: 1vh;
-  min-height: 25vh;
+  min-height: 26vh;
   background: rgba(255, 255, 255, 0.8);
 
 }
@@ -191,18 +181,18 @@ z-index:10;
  display:inline-block;
  line-height: 5vh;
  vertical-align: text-top;
- padding-bottom: : 1rem;
+ padding-bottom:1rem;
 }
 
 .list-from {
 	font-size: 2rem;
-	display: inline;
+	//display: inline;
 	margin-left: 2rem;
 	position: absolute;
 	width: 3rem;
 }
 img.line{
-	grid-area: line;
+	//grid-area: line;
 	padding-left:2rem;
 	width:45%;
 	height:auto;
@@ -211,7 +201,7 @@ img.line{
 	font-size: 2rem;
 	margin-left: 2rem;
 	position: absolute;
-	display: inline;
+	//display: inline;
 	margin-top: 5rem;
 
 }
