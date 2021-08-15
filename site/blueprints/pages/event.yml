@@ -79,6 +79,7 @@ columns:
         type: multiselect
         options:
           exhibition: Exhibition
+          museum: Museum
           screening: Screening
           concert: Concert
           performance: Performance
