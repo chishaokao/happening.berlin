@@ -323,7 +323,7 @@ cursor:default;
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-/*
+
 	.list-venue{
 		left:33%;
 	}
@@ -331,12 +331,19 @@ cursor:default;
 		left:62%;
 		width:11rem;
 	}
-	*/
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+.list-venue{
+	left: 27%;
+	width: 25%;
+}
+.list-headline{
+	left: 57%;
+width: 15rem;
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
