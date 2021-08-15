@@ -12,7 +12,7 @@ sections:
   headline: Published Event
   type: pages
   info: "{{ page.from.toDate('Y-m-d') }} - {{ page.to.toDate('Y-m-d') }}"
-  sortBy: to asc
+  sortBy: to desc
   status: published
   templates: happening
 
