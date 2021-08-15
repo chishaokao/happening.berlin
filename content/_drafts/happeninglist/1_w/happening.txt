@@ -1,0 +1,65 @@
+Title: _W“
+
+----
+
+Headline: _W“
+
+----
+
+Person: Marcel Eichner
+
+----
+
+Organizer: Haverkampf Galerie
+
+----
+
+Description: 
+
+----
+
+Link: http://www.haverkampf.gallery/
+
+----
+
+From: 2021-01-06
+
+----
+
+To: 2021-02-06
+
+----
+
+District: charlottenburg
+
+----
+
+Street: Haverkampf Galerie,Mommsenstrasse 67,
+
+----
+
+Zip: 10629
+
+----
+
+Categories: gallery
+
+----
+
+Tags: 
+
+----
+
+Fromt: 
+
+----
+
+Tot: 
+
+----
+
+Metainfo: 
+
+----
+
+Images: 
