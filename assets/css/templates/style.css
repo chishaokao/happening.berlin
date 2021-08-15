@@ -318,18 +318,29 @@ cursor:default;
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+	html{
+		font-size: calc(17px + (30 - 21) * ((100vw - 768px) / (1600 - 768)));
+	}
+	.list-venue, .list-district{
+		left:31%;
+	}
+	.list-headline, .list-artist{
+		left:60%;
+		width:10rem;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+	html{
+		font-size: calc(17px + (30 - 21) * ((100vw - 768px) / (1600 - 768)));
+	}
 	.list-venue, .list-district{
-		left:33%;
+		left:30%;
 	}
 	.list-headline, .list-artist{
 		left:62%;
-		width:9rem;
+		width:11rem;
 	}
 
 }
