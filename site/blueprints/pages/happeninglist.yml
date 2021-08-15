@@ -12,11 +12,11 @@ sections:
   headline: Published Event
   type: pages
   info: "{{ page.from.toDate('Y-m-d') }} - {{ page.to.toDate('Y-m-d') }}"
-  sortBy: from desc
+  sortBy: to desc
   status: published
   templates: happening
 
-terminal:
+ terminal:
   headline: terminal
   type: terminal
   script: deploy
