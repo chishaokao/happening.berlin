@@ -15,3 +15,8 @@ sections:
   sortBy: from desc
   status: published
   templates: happening
+
+terminal:
+  headline: terminal
+  type: terminal
+  script: deploy
