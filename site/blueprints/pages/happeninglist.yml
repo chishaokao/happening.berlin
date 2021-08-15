@@ -1,3 +1,17 @@
 title: Happeninglist
 
-preset: pages
+sections:
+ drafts:
+  headline: Drafts
+  type: pages
+  info: "{{ page.from.toDate('Y-m-d') }} - {{ page.to.toDate('Y-m-d') }}"
+  status: draft
+  templates: happening
+
+ published:
+  headline: Published Event
+  type: pages
+  info: "{{ page.from.toDate('Y-m-d') }} - {{ page.to.toDate('Y-m-d') }}"
+  sortBy: from desc
+  status: published
+  templates: happening
