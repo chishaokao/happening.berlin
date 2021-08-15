@@ -80,6 +80,7 @@ columns:
         options:
           exhibition: Exhibition
           museum: Museum
+          gallery: Gallery
           screening: Screening
           concert: Concert
           performance: Performance
