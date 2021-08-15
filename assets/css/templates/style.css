@@ -318,23 +318,52 @@ cursor:default;
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+	html{
+		font-size: calc(17px + (30 - 21) * ((100vw - 768px) / (1600 - 768)));
+	}
+	.item{
+		min-height:20vh;
+	}
+	.list-venue, .list-district{
+		left:31%;
+	}
+	.list-headline, .list-artist{
+		left:60%;
+		width:10rem;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-	.list-venue{
-		left:33%;
+	html{
+		font-size: calc(17px + (30 - 21) * ((100vw - 768px) / (1600 - 768)));
 	}
-	.list-headline{
+	.item{
+		min-height:22vh;
+	}
+	.list-venue, .list-district{
+		left:30%;
+	}
+	.list-headline, .list-artist{
 		left:62%;
 		width:11rem;
 	}
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+.list-venue, .list-district{
+	left: 27%;
+	width: 25%;
+}
+.item{
+	min-height:24vh;
+}
+.list-headline, .list-artist{
+	left: 57%;
+	width: 12rem;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
