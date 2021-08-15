@@ -321,6 +321,9 @@ cursor:default;
 	html{
 		font-size: calc(17px + (30 - 21) * ((100vw - 768px) / (1600 - 768)));
 	}
+	.item{
+		min-height:20vh;
+	}
 	.list-venue, .list-district{
 		left:31%;
 	}
@@ -334,6 +337,9 @@ cursor:default;
 @media only screen and (min-width: 768px) {
 	html{
 		font-size: calc(17px + (30 - 21) * ((100vw - 768px) / (1600 - 768)));
+	}
+	.item{
+		min-height:22vh;
 	}
 	.list-venue, .list-district{
 		left:30%;
@@ -350,6 +356,9 @@ cursor:default;
 .list-venue, .list-district{
 	left: 27%;
 	width: 25%;
+}
+.item{
+	min-height:24vh;
 }
 .list-headline, .list-artist{
 	left: 57%;
