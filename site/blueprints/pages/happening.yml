@@ -81,6 +81,9 @@ columns:
           exhibition: Exhibition
           museum: Museum
           gallery: Gallery
+          projectspace: Project Space
+          privatecollection: Private Collection
+          club: Club
           screening: Screening
           concert: Concert
           performance: Performance
