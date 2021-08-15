@@ -324,26 +324,26 @@ cursor:default;
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-	.list-venue{
+	.list-venue, .list-district{
 		left:33%;
 	}
-	.list-headline{
+	.list-headline, .list-artist{
 		left:62%;
-		width:11rem;
+		width:9rem;
 	}
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-.list-venue{
+.list-venue, .list-district{
 	left: 27%;
 	width: 25%;
 }
-.list-headline{
+.list-headline, .list-artist{
 	left: 57%;
-width: 15rem;
-}
+	width: 12rem;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
